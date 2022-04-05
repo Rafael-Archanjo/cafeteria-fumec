@@ -1,0 +1,65 @@
+nav,
+body {
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+
+.navbarul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbarli {
+    float: left;
+}
+
+.navbarli .navbara {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbarli .navbara:hover {
+    background-color: rgb(128, 128, 128);
+}
+
+table {
+    border: 1 px solid;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td{
+    width: 175px;
+}
+
+th,
+td {
+    padding: 8px;   
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    width: 100px;
+}
+
+tr:hover {
+    background-color: whitesmoke;
+}
+
+a, a:hover, a:visited{
+    color: black;
+}
+
+.fonte, .fonte:hover, .fonte:visited{
+    color: blue;
+    text-decoration: underline;
+}

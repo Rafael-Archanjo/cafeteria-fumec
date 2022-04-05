@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cafeteria</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbarul">
+            <li class="navbarli" style="float: left;"><a href="./index.html" class="navbara"><img src="https://cdn-icons-png.flaticon.com/512/1046/1046785.png" alt=""
+                        style="height: 25px;width: 25.05px;"></a></li>
+            <li class="navbarli"><a href="#tabela" class="navbara">Produtos</a></li>
+
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <div id="carrossel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carrossel" data-slide-to="0" class="active"></li>
+                <li data-target="#carrossel" data-slide-to="1"></li>
+                <li data-target="#carrossel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100"
+                        src="https://uploads.metropoles.com/wp-content/uploads/2021/11/05164751/20200830_155205.jpg-600x400.jpg"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://baristawave.com/wp-content/uploads/2021/06/cafeteria-bebida-latte-art-768x512.jpeg"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://perfectdailygrind.com/pt/wp-content/uploads/sites/5/2021/07/Unsplash-1-2.jpeg"
+                        alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carrossel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carrossel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+<br>
+
+    <div class="tabela">
+        <table align="center">
+
+            <tr style="background-color: rgb(231, 231, 231);">
+                <!-- Bebidas -->
+                <th colspan="2">⠀Bebidas</th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <!-- a -->
+                <th>Item</th>
+                <th>Preço</th>
+            </tr>
+
+
+
+            <tr>
+                
+                <td><a href="./mocha.html">Mocha</a></td>
+                <td>R$ 3,50</td>
+
+            </tr>
+
+            <tr>
+
+                <td><a href="./arabica.html">Café Arábica</a></td>
+                <td>R$ 3,50</td>
+
+            </tr>
+
+            <tr>
+
+                <td><a href="./cappuccino.html">Cappuccino</a></td>
+                <td>R$ 3,50</td>
+            </tr>
+
+            <tr>
+
+                <td><a href="./expresso.html">Expresso</a></td>
+                <td>R$ 3,50</td>
+            </tr>
+
+    </div>
+</body>
+
+</html>
